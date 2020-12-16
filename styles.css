@@ -108,3 +108,12 @@ hr{
 .footer .link{
     color:white;
 }
+
+/***** User Agent Stylesheet *****/
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.hero .hero-heading{
+    text-align: center;
+}
