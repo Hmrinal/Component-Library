@@ -11,6 +11,10 @@ hr{
     --dark-gray: #6B7280;
     --off-white: #D1D5DB;
 }
+/** spaces **/
+margin-md{
+    margin:2rem;
+}
 
 
 /** container **/
@@ -26,8 +30,11 @@ hr{
 
 /** links **/
 .link{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin-top: 1rem; 
+    margin-bottom: 1rem; */
 }
 .link-primary{
     background-color: var(--primary-color);
@@ -109,7 +116,10 @@ hr{
 .footer .link{
     color:white;
 }
-
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
 /***** User Agent Stylesheet *****/
 .footer ul{
     padding-inline-start: 0px;
