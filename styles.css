@@ -93,6 +93,10 @@ margin-md{
 .hero .hero-heading .heading-inverted{
     color:var(--primary-color);
 }
+.hero h3{
+    color: var(--dark-gray);
+    text-align: center;
+}
 
 /** section **/
 .section{
